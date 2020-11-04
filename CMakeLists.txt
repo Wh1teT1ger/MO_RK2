@@ -3,4 +3,4 @@ project(mo_rk2)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(mo_rk2 main.cpp GeneticAlgoritm.cpp GeneticAlgoritm.hpp)
+add_executable(mo_rk2 main.cpp GeneticAlgorithm.cpp GeneticAlgorithm.hpp)

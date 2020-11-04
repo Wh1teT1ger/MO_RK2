@@ -2,7 +2,7 @@
 // Created by Денис Бурылов on 02.11.2020.
 //
 
-#include "GeneticAlgoritm.hpp"
+#include "GeneticAlgorithm.hpp"
 
 Population::Population() {
     std::srand(time(0));
@@ -119,7 +119,7 @@ double Population::_sum_fit() {
 
 double Population::fit(double x, double y) { return cos(x) * cos(y) * exp(y / 2); }
 
-void genetic_algoritm(const size_t &iterations, std::ostream &out) {
+void genetic_algorithm(const size_t &iterations, std::ostream &out) {
     srand(time(0));
     out << "| #generation | X       | Y       | FIT     | MAX     | AVERAGE |" << std::endl;
     out << "|-------------|---------|---------|---------|---------|---------|" << std::endl;

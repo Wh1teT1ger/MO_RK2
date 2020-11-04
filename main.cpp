@@ -1,6 +1,6 @@
-#include "GeneticAlgoritm.hpp"
+#include "GeneticAlgorithm.hpp"
 
 int main() {
-    genetic_algoritm(10, std::cout);
+    genetic_algorithm(10, std::cout);
     return 0;
 }

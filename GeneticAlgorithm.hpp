@@ -2,9 +2,8 @@
 // Created by Денис Бурылов on 02.11.2020.
 //
 
-#ifndef MO_RK2_GENETICALGORITM_HPP
-#define MO_RK2_GENETICALGORITM_HPP
-
+#ifndef MO_RK2_GENETICALGORITHM_HPP
+#define MO_RK2_GENETICALGORITHM_HPP
 
 #include <cmath>
 #include <cstddef>
@@ -38,7 +37,7 @@ private:
     double _sum_fit();
 };
 
-void genetic_algoritm(const size_t &iterations, std::ostream &out);
+void genetic_algorithm(const size_t &iterations, std::ostream &out);
 
 
-#endif//MO_RK2_GENETICALGORITM_HPP
+#endif // MO_RK2_GENETICALGORITHM_HPP
